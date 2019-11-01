@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">LivePyeongchang</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="spiner_prompt">종목을 선택하세요</string>
+    <string name="language_check">English</string>
+    <string name="sub_comment">The Outline</string>
+    <string name="sub_more">more</string>
+    <string name="sub_smaller">reduce</string>
+    <string name="sub_player">Players in this game</string>
+    <string name="sub_txt2">Click here to get another information.</string>
+    <string name="tour_address">Address</string>
+    <string name="tour_time">Time</string>
+    <string name="tour_admission">Admission</string>
+    <string name="tour_parking">Parking</string>
+    <string name="tour_holiday">Holiday</string>
+    <string name="tour_comment">The Outline</string>
+    <string name="tour_homepage">Homepage</string>
+    <string name="cheer_edit">Write message supporting player!</string>
+    <string name="cheer_send">SEND</string>
+    <string name="cheer_title">Supporting Comment!</string>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyCM3O1SoR31p1ms5mhLZVxRbzehLMZKLq8
+    </string>
+
+    <string-array name="theme">
+        <item>ALL</item>
+        <item>테마파크</item>
+        <item>해변</item>
+        <item>유원지</item>
+        <item>문화</item>
+        <item>유적</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>ALL</item>
+        <item>춘천시</item>
+        <item>속초시</item>
+        <item>양양군</item>
+        <item>강릉시</item>
+        <item>동해시</item>
+        <item>삼척시</item>
+        <item>태백시</item>
+        <item>영월군</item>
+        <item>정선군</item>
+        <item>평창군</item>
+        <item>원주시</item>
+        <item>횡성군</item>
+        <item>홍천군</item>
+        <item>고성군</item>
+        <item>인제군</item>
+        <item>화천군</item>
+        <item>철원군</item>
+        <item>양구군</item>
+    </string-array>
+
+    <string-array name="subject">
+        <item>"알파인스키"</item>
+        <item>"바이애슬론"</item>
+        <item>"봅슬레이"</item>
+        <item>"크로스컨트리스키"</item>
+        <item>"컬링"</item>
+        <item>"피겨스케이팅"</item>
+        <item>"프리스타일스키"</item>
+        <item>"아이스하키"</item>
+        <item>"루지"</item>
+        <item>"노르딕복합"</item>
+        <item>"쇼트트랙"</item>
+        <item>"스켈레톤"</item>
+        <item>"스키점프"</item>
+        <item>"스노보드"</item>
+        <item>"스피드스케이팅"</item>
+    </string-array>
+
+</resources>

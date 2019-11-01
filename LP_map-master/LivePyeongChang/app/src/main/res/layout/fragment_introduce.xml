@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_alp" />
+
+            <TextView
+                android:id="@+id/txt_sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALP"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_bth" />
+
+            <TextView
+                android:id="@+id/txt_sub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTH"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_bob" />
+
+            <TextView
+                android:id="@+id/txt_sub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOB"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_ccs" />
+
+            <TextView
+                android:id="@+id/txt_sub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CCS" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_cur" />
+
+            <TextView
+                android:id="@+id/txt_sub5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CUR" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_fsk" />
+
+            <TextView
+                android:id="@+id/txt_sub6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FSK" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_frs" />
+
+            <TextView
+                android:id="@+id/txt_sub7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FRS" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_iho" />
+
+            <TextView
+                android:id="@+id/txt_sub8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IHO" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_lug" />
+
+            <TextView
+                android:id="@+id/txt_sub9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUG" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_ncb" />
+
+            <TextView
+                android:id="@+id/txt_sub10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NCB" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_stk" />
+
+            <TextView
+                android:id="@+id/txt_sub11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STK" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_skn" />
+
+            <TextView
+                android:id="@+id/txt_sub12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKN" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_sjp" />
+
+            <TextView
+                android:id="@+id/txt_sub13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SJP" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn14"
+                android:layout_width="60dp"
+                android:background="@android:color/transparent"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_sbd" />
+
+            <TextView
+                android:id="@+id/txt_sub14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SBD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btn15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/picto_ssk" />
+
+            <TextView
+                android:id="@+id/txt_sub15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SSK" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

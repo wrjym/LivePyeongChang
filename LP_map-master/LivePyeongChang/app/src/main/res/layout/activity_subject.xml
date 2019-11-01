@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="2px"
+    android:paddingRight="2px"
+    android:paddingTop="2px"
+    android:paddingBottom="2px"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <view
+            android:id="@+id/view_youtube"
+            class="com.google.android.youtube.player.YouTubePlayerView"
+            id="@+id/view"
+            layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view_youtube"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:text="경기명"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_stadium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_title"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:text="경기장"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_stadium"
+            android:layout_marginTop="10dp"
+            android:text="@string/sub_comment"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_comment"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:lines="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="내 용" />
+
+        <TextView
+            android:id="@+id/tv_btn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_summary"
+            android:paddingRight="5dp"
+            android:text="@string/sub_more"
+            android:textColor="?attr/colorButtonNormal"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_btn_smaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_btn_more"
+            android:layout_alignBottom="@+id/tv_btn_more"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5dp"
+            android:text="@string/sub_smaller"
+            android:textColor="?attr/colorButtonNormal"
+            android:textSize="18dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_summary"
+            android:layout_marginTop="30dp"
+            android:text="@string/sub_player"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:layout_below="@id/txt_player"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+
+        <TextView
+            android:id="@+id/tv_btn_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recycler_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/sub_txt2"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+

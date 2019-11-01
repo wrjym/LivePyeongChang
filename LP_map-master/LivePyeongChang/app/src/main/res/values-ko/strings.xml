@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">라이브평창</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="language_check">한국어</string>
+    <string name="sub_comment">개   요</string>
+    <string name="sub_more">더보기</string>
+    <string name="sub_smaller">줄이기</string>
+    <string name="sub_player">출 전 선 수</string>
+    <string name="sub_txt2">더 많은 정보를 보려면 여기를 클릭하세요.</string>
+    <string name="tour_address">위치</string>
+    <string name="tour_time">이용시간</string>
+    <string name="tour_admission">입장료</string>
+    <string name="tour_parking">주차여부</string>
+    <string name="tour_holiday">휴무일</string>
+    <string name="tour_comment">소개</string>
+    <string name="tour_homepage">홈페이지</string>
+    <string name="cheer_edit">응원의 메세지를 적어주세요!</string>
+    <string name="cheer_send">보내기</string>
+    <string name="cheer_title">응원의 한마디!</string>
+
+    <string-array name="theme">
+        <item>전체</item>
+        <item>테마파크</item>
+        <item>해변</item>
+        <item>유원지</item>
+        <item>문화</item>
+        <item>유적</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>전체</item>
+        <item>춘천시</item>
+        <item>속초시</item>
+        <item>양양군</item>
+        <item>강릉시</item>
+        <item>동해시</item>
+        <item>삼척시</item>
+        <item>태백시</item>
+        <item>영월군</item>
+        <item>정선군</item>
+        <item>평창군</item>
+        <item>원주시</item>
+        <item>횡성군</item>
+        <item>홍천군</item>
+        <item>고성군</item>
+        <item>인제군</item>
+        <item>화천군</item>
+        <item>철원군</item>
+        <item>양구군</item>
+    </string-array>
+
+    <string-array name="subject">
+        <item>"알파인스키"</item>
+        <item>"바이애슬론"</item>
+        <item>"봅슬레이"</item>
+        <item>"크로스컨트리스키"</item>
+        <item>"컬링"</item>
+        <item>"피겨스케이팅"</item>
+        <item>"프리스타일스키"</item>
+        <item>"아이스하키"</item>
+        <item>"루지"</item>
+        <item>"노르딕복합"</item>
+        <item>"쇼트트랙"</item>
+        <item>"스켈레톤"</item>
+        <item>"스키점프"</item>
+        <item>"스노보드"</item>
+        <item>"스피드스케이팅"</item>
+    </string-array>
+
+</resources>
